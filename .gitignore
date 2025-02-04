@@ -1,0 +1,44 @@
+# Referenciam-se ao ambiente de desenvolvimento
+.vscode/
+bin/
+
+# Referenciam-se ao binário do Go
+./server
+cmd/server/server
+
+# Log && debug files
+*.log
+cmd/server/__debug*
+**/*__debug*
+
+# Configurations
+**/env.*
+**/.air**
+.air.toml
+docker-compose.yml
+configs/make/*/Makefile
+configs/env/*/.env
+
+# Applications
+cmd/test/*
+**/*tmp/
+**/*BAK*
+**/*bak*
+**/*copy*
+*.app
+*.exe
+*.war
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+# pipeline do Azure
+**/*azure*
+
+# Instructions not important this moment
+COMMANDS.md 

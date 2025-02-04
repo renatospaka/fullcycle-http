@@ -1,0 +1,24 @@
+# Referenciam-se ao ambiente de desenvolvimento
+.vscode/
+docker-compose.yml
+bin/
+tmp/
+**/*BAK*
+**/*bak*
+
+# Referenciam-se ao binário do Go
+./server
+cmd/server/server
+
+# Log files
+cmd/server/__debug*
+**/*__debug*
+
+# Referenciam-se ao ambiente de desenvolvimento
+**/.docker/postgres/**dbdata*
+
+# Applications
+*.log
+*.app
+*.exe
+*.war
