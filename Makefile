@@ -21,9 +21,6 @@ run:
 	go run . && \
 	cd ../../
 
-run.test:
-	$(MAKE) --no-print-directory run
-
 #########################################################
 ##### CLEANNING AND TESTING
 
